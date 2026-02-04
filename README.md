@@ -1,2 +1,2 @@
 # fid
-something for my Fundamentals of Interactive Designe college course.
+something for my Fundamentals of Interactive Designcollege course.
