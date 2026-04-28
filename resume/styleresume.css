@@ -1,0 +1,46 @@
+body {
+    margin: 0 10%;
+    font: 1.25rem/1.75rem san-serif;
+    color: floralwhite;
+    background-color: rgb(0, 17, 75);
+}
+footer {
+    margin-bottom: 50px;
+    background-color: #172d68;
+    text-align: center;
+}
+header {
+    text-align: center;   
+}
+h1 {
+    font-family: "Castoro Titling";
+}
+h2 {
+    margin-top: 50px;
+}
+hr {
+    border-top: 3px dashed aqua;
+}
+div {
+    display: inline;
+}
+div.allthumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+div.thumbnail {
+    margin-left: 10px;
+    border: 2px solid #000000;
+}
+div.thumbnail:hover {
+    border: 2px solid #49f9ff;
+}
+a {
+    color: aqua;
+}
+a:hover {
+    color: rgb(153, 0, 158);
+}
