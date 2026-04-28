@@ -1,0 +1,44 @@
+html, body {
+    background-color: rgb(97, 97, 97);
+}
+header {
+        background-color: #EB3D3C;
+}
+header img {
+    height: 200px; 
+    width: 200px;
+}
+footer {
+    background-color: #EB3D3C;
+    margin-top: 30px;
+}
+footer img {
+    width: 40px;
+    height: 40px;
+}
+footer li {
+    list-style-type: none;
+    display: inline;
+}
+ul { 
+list-style-type: none;
+}
+h1, h2{
+    font-family: UnifrakturMaguntia;
+    color: #F4BD10;
+}
+h4 {
+    color: #F4BD10;
+}
+a:link {
+    color: #F4BD10;
+}
+a:visited {
+    color: #F4BD10;
+}
+a:hover {
+    color: black;
+}
+legend {
+    background-color: #f4bf10d5;
+}
