@@ -1,0 +1,97 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+  <meta charset="utf-8" >
+   <title>Black Goose Bistro: Pizza-on-Demand</title>
+   <link rel="stylesheet" href="../style.css"/>
+</head>
+
+<header><img src="../images/pizza_logo.png" alt="logo"></header>
+
+<body>
+
+<h1>Ye Ol' Pizza Joint | Custom Pizza to your Door</h1>
+
+<p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour by horse and chariot (or most likely by car).</p>
+
+
+<form action="http://www.blackgoosebistro.com/pizza.php" method="post">
+
+<fieldset>
+  <legend>Your Information</legend>
+<ul>
+  <li><label for="form-name">Name: </label><input type="text" name="customername" id="form-name"></li>
+  <li><label for="form-address">Address: </label><input type="text" name="customeraddress" id="form-address"></li>
+  <li><label for="form-number">Telephone Number: </label><input type="text" name="customernumber" id="form-number"></li>
+  <li><label for="form-email">Email: </label><input type="text" name="customeremail" id="form-email"></li>
+  <li><label for="form-notes">Delivery instructions: </label><br>
+    <textarea name="instructions" rows="4" cols="60" maxlength="400" placeholder="No more than 400 characters long." id="form-notes"></textarea></li>
+</ul>
+</fieldset>
+
+<h2>Design The Royal Pizza Of Your Dreams:</h2>
+
+<fieldset>
+<legend>Pizza specs</legend>
+
+<fieldset>
+  <legend>Crust <em>(Choose one)</em>:</legend>
+<ul>
+  <li><label><input type="radio" name="crust" value="White"> Classic white</label></li>
+  <li><label><input type="radio" name="crust" value="Multigrain"> Multigrain</label></li>
+  <li><label><input type="radio" name="crust" value="Cheese"> Cheese-stuffed crust</label></li>
+  <li><label><input type="radio" name="crust" value="Gluten-free"> Gluten-free</label></li>
+</ul>
+</fieldset>
+
+<fieldset>
+  <legend>Sides <em>(Choose as many as you want)</em>:</legend>
+<ul>
+  <li><input type="checkbox" name="Sides" value="Red Sauce" checked> Red sauce</li>
+  <li><input type="checkbox" name="Sides" value="White sauce"> White sauce</li>
+  <li><input type="checkbox" name="Sides" value="Mozzarella"> Mozzarella cheese</li>
+  <li><input type="checkbox" name="Sides" value="Pepperoni"> Pepperoni</li>
+  <li><input type="checkbox" name="Sides" value="Mushrooms"> Mushrooms</li>
+  <li><input type="checkbox" name="Sides" value="Red Peppers"> Red Peppers</li>
+  <li><input type="checkbox" name="Sides" value="Green Peppers"> Green Peppers</li>
+  <li><input type="checkbox" name="Sides" value="Pineapple"> Pineapple</li>
+  <li><input type="checkbox" name="Sides" value="Bacon"> Bacon bits</li>
+  <li><input type="checkbox" name="Sides" value="Macaroni"> Macaroni</li>
+  <li><input type="checkbox" name="Sides" value="Ham"> Ham</li>
+  <li><input type="checkbox" name="Sides" value="Meatballs"> Meatballs</li>
+</ul>
+</fieldset>
+
+<fieldset>
+  <legend>Number</legend>
+<p>How many pizzas: <select name="number" size="3">
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+</select><p>
+  </fieldset>
+
+</fieldset>
+
+<fieldset>
+  <legend>Sides</legend>
+<ul>
+  <li><input type="checkbox" name="Sides" value="Breadsticks"> Breadsticks	$5.99</li>
+  <li><input type="checkbox" name="Sides" value="Cheesy bread"> Cheesy bread	$6.99</li>
+  <li><input type="checkbox" name="Sides" value="Garlic bread"> Garlic bread	$5.99</li>
+  <li><input type="checkbox" name="Sides" value="Dragon pepper poppers"> Dragon pepper poppers	$6.99</li>
+  <li><input type="checkbox" name="Sides" value="Salad"> Salad	$6.99</li>
+  <li><input type="checkbox" name="Sides" value="Cheese sticks"> Cheese sticks	$5.99</li>
+</ul>
+  </fieldset>
+
+<p><input type="submit" value="The ruler demands pizza!"></p>
+
+</form>
+
+<footer>
+<section> Ye Ol' Pizza Joint LLC &copy; 2026 Designed by Luke Ball</section>
+<section>Co-founder <a href="https://gamedragonstudent.github.io/fid/bistro/" target="_blank">Black Goose Bistro</a></section>
+</footer>
+
+</html>
